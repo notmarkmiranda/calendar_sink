@@ -1,3 +1,5 @@
-<div data-turbo="false">
-  <%= google_sign_in_button image_tag('google_logo.png', alt: 'Google'), proceed_to: create_login_url %>
-</div>
+<main class="login-page justify-content-center mt-4 d-flex">
+  <div data-turbo="false" class="login-button">
+    <%= google_sign_in_button image_tag('google_logo.png', alt: 'Google'), proceed_to: create_login_url, class: "login-button" %>
+  </div>
+</main>
