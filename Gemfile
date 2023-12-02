@@ -17,6 +17,7 @@ gem "turbo-rails"
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 
 group :development, :test do
+  gem "dotenv-rails"
   gem "pry"
 end
 
